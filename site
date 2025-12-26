@@ -1,1 +1,62 @@
 index.html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prezentare</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #f5f5f5;
+}
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1 { font-size: 3em; margin-bottom: 10px; }
+p { max-width: 600px; margin: auto; }
+section { padding: 60px 20px; }
+a { color: #00ffc6; text-decoration: none; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Numele tău</h1>
+    <p>Artist / profesionist – o scurtă descriere clară</p>
+  </div>
+</header>
+
+<section>
+  <h2>Despre</h2>
+  <p>
+    Aici scrii câteva rânduri despre tine, experiență, direcție.
+  </p>
+</section>
+
+<section>
+  <h2>Proiecte</h2>
+  <p>
+    • Proiect 1<br>
+    • Proiect 2<br>
+    • Proiect 3
+  </p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:email@exemplu.ro">email@exemplu.ro</a>
+  </p>
+</section>
+
+</body>
+</html>
