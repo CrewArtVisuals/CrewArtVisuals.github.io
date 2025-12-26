@@ -1,62 +1,103 @@
-index.html
 <!DOCTYPE html>
 <html lang="ro">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prezentare</title>
+<title>CrewArt Visuals</title>
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111;
-  color: #f5f5f5;
-}
-header {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-h1 { font-size: 3em; margin-bottom: 10px; }
-p { max-width: 600px; margin: auto; }
-section { padding: 60px 20px; }
-a { color: #00ffc6; text-decoration: none; }
+  /* Reset simplu */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+
+  a { color: #00ffc6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #111111 0%, #1a1a1a 100%);
+    padding: 20px;
+  }
+
+  header h1 { font-size: 3em; margin-bottom: 20px; }
+  header p { max-width: 600px; font-size: 1.2em; }
+
+  section { padding: 80px 20px; max-width: 900px; margin: auto; }
+  section h2 { font-size: 2em; margin-bottom: 20px; color: #00ffc6; }
+  section p, section ul { font-size: 1.1em; margin-bottom: 20px; }
+  section ul li { margin-bottom: 10px; }
+
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111;
+    font-size: 0.9em;
+  }
+
+  /* Stil proiecte */
+  .projects ul { list-style: square; padding-left: 20px; }
+
+  /* Contact */
+  .contact a { display: block; margin-bottom: 10px; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 { font-size: 2.2em; }
+    header p { font-size: 1em; }
+    section h2 { font-size: 1.5em; }
+  }
 </style>
 </head>
 
 <body>
 
 <header>
-  <div>
-    <h1>Numele tău</h1>
-    <p>Artist / profesionist – o scurtă descriere clară</p>
-  </div>
+  <h1>CrewArt Visuals</h1>
+  <p>Creează vizualuri video și artă digitală pentru evenimente, spectacole și producții live. Arta întâlnește tehnologia pentru experiențe vizuale memorabile.</p>
 </header>
 
-<section>
+<section class="about">
   <h2>Despre</h2>
   <p>
-    Aici scrii câteva rânduri despre tine, experiență, direcție.
+    CrewArt Visuals creează vizualuri video și artă digitală pentru evenimente, spectacole și producții live. Fiecare proiect este o colaborare între artă, tehnologie și viziune, construită cu atenție la detaliu și identitate.
+  </p>
+  <p>
+    Dezvoltăm concepte vizuale, conținut multimedia și experiențe video care susțin atmosfera, mesajul și impactul live. Îmbinăm abordarea artistică cu precizia tehnică pentru rezultate coerente și expresive, adaptate fiecărui spațiu și context.
+  </p>
+  <p>
+    La CrewArt Visuals, imaginea este experiență. Construim vizualuri video și intervenții de artă digitală care transformă spațiul și timpul în momente vizuale memorabile.
   </p>
 </section>
 
-<section>
+<section class="projects">
   <h2>Proiecte</h2>
-  <p>
-    • Proiect 1<br>
-    • Proiect 2<br>
-    • Proiect 3
-  </p>
+  <ul>
+    <li>Gala Uniter 2025</li>
+    <li>Festivalul Unforgettable 2025</li>
+    <li>Knauff Insulation - lansare fabrică nouă în Alba-Iulia</li>
+    <li>Lansare Canon 6R Mark III</li>
+  </ul>
 </section>
 
-<section>
+<section class="contact">
   <h2>Contact</h2>
-  <p>
-    Email: <a href="mailto:email@exemplu.ro">email@exemplu.ro</a>
-  </p>
+  <a href="mailto:constantin0989@gmail.com">Email: constantin0989@gmail.com</a>
+  <a href="tel:+40752608539">Tel: +40 752 608 539</a>
 </section>
+
+<footer>
+  &copy; 2025 CrewArt Visuals. Toate drepturile rezervate.
+</footer>
 
 </body>
 </html>
